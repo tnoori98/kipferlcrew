@@ -76,7 +76,7 @@ export default function Parallax() {
           <div className="mt-6 flex gap-3">
             <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/kipferlcrew" className="p-2 rounded-full bg-white/70 hover:bg-white shadow">
             <Image
-              src="/assets/instagram.png"
+              src="/assets/instagram.webp"
               alt="Instagram"
               className="h-5 w-5"
             />
