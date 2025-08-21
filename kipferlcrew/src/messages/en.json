@@ -1,0 +1,46 @@
+{
+  "parallax": {
+    "slides": [
+      {
+        "title": "Anime Kipferl",
+        "desc": "Wants to become Kipfer-Kage 🥷✨"
+      },
+      {
+        "title": "Astronaut Kipferl",
+        "desc": "Exploring the Kipferlverse 🚀"
+      },
+      {
+        "title": "Detective Kipferl",
+        "desc": "Investigates every crime scene 🕵️‍♂️🔎"
+      },
+      {
+        "title": "Anti-Monday Kipferl",
+        "desc": "Hates Mondays just like you ☕🥐"
+      },
+      {
+        "title": "Lederhosen Kipferl",
+        "desc": "Ready for the alpine hike 🏔️"
+      },
+      {
+        "title": "Sleepy Kipferl",
+        "desc": "Can only fall asleep with its flour sack plushie 🌙"
+      }
+    ],
+    "info": [
+      {
+        "text": "Our merchandise is now on Spreadshirt & Redbubble",
+        "redbubble": "Shop on Redbubble",
+        "spreadshirt": "Shop on SpreadShirt",
+        "detail": "Print-on-Demand • Worldwide shipping • Secure Payment"
+      }
+    ]
+  },
+  "seo": {
+    "home": {
+      "title": "Kipferl Crew",
+      "brand": "kipferlcrew",
+      "alt": "Kipferl Crew mascot in spacesuit",
+      "description": "Cute, adventurous Kipferl mascots and merch. Follow our drops and grab official gear."
+    }
+  }
+}

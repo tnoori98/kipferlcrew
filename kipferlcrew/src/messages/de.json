@@ -1,0 +1,46 @@
+{
+  "parallax": {
+    "slides": [
+      {
+        "title": "Anime Kipferl",
+        "desc": "Möchte Kipfer-Kage werden 🥷✨"
+      },
+      {
+        "title": "Astronaut Kipferl",
+        "desc": "Erkundet das Kipferlversum 🚀"
+      },
+      {
+        "title": "Detektiv Kipferl",
+        "desc": "Untersucht jeden Tatort 🕵️‍♂️🔎"
+      },
+      {
+        "title": "Anti-Montag Kipferl",
+        "desc": "Hasst Montage genauso wie du ☕🥐"
+      },
+      {
+        "title": "Lederhosen Kipferl",
+        "desc": "Bereit für die Bergwanderung 🏔️"
+      },
+      {
+        "title": "Schlaf-Kipferl",
+        "desc": "Kann nur mit seinem Mehlsack einschlafen 🌙"
+      }      
+    ],
+    "info": [
+      {
+        "text": "Unser Merchandise ist jetzt auf Spreadshirt & Redbubble",
+        "redbubble": "Shop auf Redbubble",
+        "spreadshirt": "Shop auf SpreadShirt",
+        "detail": "Print-on-Demand • Versand weltweit • Sichere Zahlung"
+      }
+    ]
+  },
+  "seo": {
+    "home": {
+      "title": "Kipferl Crew",
+      "brand": "kipferlcrew",
+      "alt": "Kipferl-Crew-Maskottchen im Raumanzug",
+      "description": "Süße, abenteuerlustige Kipferl-Maskottchen und Merch. Verfolge unsere Drops und sichere dir offizielles Gear."
+    }
+  }
+}

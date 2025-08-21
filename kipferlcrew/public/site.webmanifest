@@ -1,0 +1,21 @@
+{
+  "name": "Kipferl Crew",
+  "short_name": "Kipferl",
+  "description": "Cute, adventurous Kipferl mascots and merch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020414",
+  "theme_color": "#020414",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48 64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
