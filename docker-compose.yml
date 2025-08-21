@@ -11,8 +11,9 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.kipferlcrew-web.rule=Host(`kipferlcrew.com`)"
-      - "traefik.http.routers.kipferlcrew-web.entrypoints=web"
-#      - "traefik.http.routers.kipferlcrew-web.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.kipferlcrew-web.entrypoints=websecure"
+      - "traefik.http.routers.kipferlcrew-web.tls=true"
+      - "traefik.http.routers.kipferlcrew-web.tls.certresolver=letsencrypt"
       - "traefik.http.services.kipferlcrew-web.loadbalancer.server.port=3000"
 
 networks:
