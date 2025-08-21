@@ -2,6 +2,8 @@
 import { useState } from "react"
 import NavElements from "./NavElements"
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
 const [isMobile, setIsMobile] = useState(false)
@@ -10,9 +12,9 @@ const [isMobile, setIsMobile] = useState(false)
   <header className="sticky inset-x-0 z-20 w-full bg-primary">
     <div className="mx-auto spacing max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
-            <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
-                <img src="/assets/logo.svg" alt="Logo" className="h-8 w-8" />
-            </a>
+            <Link href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
+                <Image src="/assets/logo.svg" alt="Logo" className="h-8 w-8" />
+            </Link>
              <button
                 onClick={() => setIsMobile(!isMobile)}
                 className="flex sm:hidden text-neutral-400 hover:text-white focus:outline-none"

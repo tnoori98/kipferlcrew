@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { kipferlSlides } from "../types/kipferlSlides";
 import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
-
+import Image from "next/image";
 
 export default function Parallax() {
   const [index, setIndex] = useState(0);
@@ -34,7 +34,7 @@ export default function Parallax() {
               transition={{ duration: 0.8 }}
               className="flex flex-col items-center text-center"
             >
-              <img
+              <Image
                 src={kipferlSlides[index].img}
                 alt={slides[index].title}
                 className="w-56 h-56 md:w-64 md:h-64 object-contain mb-4"
@@ -75,7 +75,7 @@ export default function Parallax() {
           </p>
           <div className="mt-6 flex gap-3">
             <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/kipferlcrew" className="p-2 rounded-full bg-white/70 hover:bg-white shadow">
-            <img
+            <Image
               src="/assets/instagram.png"
               alt="Instagram"
               className="h-5 w-5"
